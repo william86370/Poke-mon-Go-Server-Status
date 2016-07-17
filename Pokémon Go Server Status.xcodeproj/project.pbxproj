@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93FAAA8E1D3C2B0F00B7E9DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FAAA8D1D3C2B0F00B7E9DB /* AppDelegate.swift */; };
+		93FAAA901D3C2B0F00B7E9DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FAAA8F1D3C2B0F00B7E9DB /* ViewController.swift */; };
+		93FAAA931D3C2B0F00B7E9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FAAA911D3C2B0F00B7E9DB /* Main.storyboard */; };
+		93FAAA951D3C2B0F00B7E9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93FAAA941D3C2B0F00B7E9DB /* Assets.xcassets */; };
+		93FAAA981D3C2B0F00B7E9DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FAAA961D3C2B0F00B7E9DB /* LaunchScreen.storyboard */; };
+		93FAAAA31D3C2B0F00B7E9DB /* Poke_mon_Go_Server_StatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FAAAA21D3C2B0F00B7E9DB /* Poke_mon_Go_Server_StatusTests.swift */; };
+		93FAAAAE1D3C2B0F00B7E9DB /* Poke_mon_Go_Server_StatusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FAAAAD1D3C2B0F00B7E9DB /* Poke_mon_Go_Server_StatusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93FAAA9F1D3C2B0F00B7E9DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FAAA821D3C2B0F00B7E9DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93FAAA891D3C2B0F00B7E9DB;
+			remoteInfo = "Pokémon Go Server Status";
+		};
+		93FAAAAA1D3C2B0F00B7E9DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FAAA821D3C2B0F00B7E9DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93FAAA891D3C2B0F00B7E9DB;
+			remoteInfo = "Pokémon Go Server Status";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93FAAA8A1D3C2B0F00B7E9DB /* Pokémon Go Server Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokémon Go Server Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FAAA8D1D3C2B0F00B7E9DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93FAAA8F1D3C2B0F00B7E9DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93FAAA921D3C2B0F00B7E9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93FAAA941D3C2B0F00B7E9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93FAAA971D3C2B0F00B7E9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93FAAA991D3C2B0F00B7E9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93FAAA9E1D3C2B0F00B7E9DB /* Pokémon Go Server StatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokémon Go Server StatusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FAAAA21D3C2B0F00B7E9DB /* Poke_mon_Go_Server_StatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke_mon_Go_Server_StatusTests.swift; sourceTree = "<group>"; };
+		93FAAAA41D3C2B0F00B7E9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93FAAAA91D3C2B0F00B7E9DB /* Pokémon Go Server StatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokémon Go Server StatusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FAAAAD1D3C2B0F00B7E9DB /* Poke_mon_Go_Server_StatusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke_mon_Go_Server_StatusUITests.swift; sourceTree = "<group>"; };
+		93FAAAAF1D3C2B0F00B7E9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93FAAA871D3C2B0F00B7E9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93FAAA9B1D3C2B0F00B7E9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93FAAAA61D3C2B0F00B7E9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93FAAA811D3C2B0F00B7E9DB = {
+			isa = PBXGroup;
+			children = (
+				93FAAA8C1D3C2B0F00B7E9DB /* Pokémon Go Server Status */,
+				93FAAAA11D3C2B0F00B7E9DB /* Pokémon Go Server StatusTests */,
+				93FAAAAC1D3C2B0F00B7E9DB /* Pokémon Go Server StatusUITests */,
+				93FAAA8B1D3C2B0F00B7E9DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93FAAA8B1D3C2B0F00B7E9DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93FAAA8A1D3C2B0F00B7E9DB /* Pokémon Go Server Status.app */,
+				93FAAA9E1D3C2B0F00B7E9DB /* Pokémon Go Server StatusTests.xctest */,
+				93FAAAA91D3C2B0F00B7E9DB /* Pokémon Go Server StatusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93FAAA8C1D3C2B0F00B7E9DB /* Pokémon Go Server Status */ = {
+			isa = PBXGroup;
+			children = (
+				93FAAA8D1D3C2B0F00B7E9DB /* AppDelegate.swift */,
+				93FAAA8F1D3C2B0F00B7E9DB /* ViewController.swift */,
+				93FAAA911D3C2B0F00B7E9DB /* Main.storyboard */,
+				93FAAA941D3C2B0F00B7E9DB /* Assets.xcassets */,
+				93FAAA961D3C2B0F00B7E9DB /* LaunchScreen.storyboard */,
+				93FAAA991D3C2B0F00B7E9DB /* Info.plist */,
+			);
+			path = "Pokémon Go Server Status";
+			sourceTree = "<group>";
+		};
+		93FAAAA11D3C2B0F00B7E9DB /* Pokémon Go Server StatusTests */ = {
+			isa = PBXGroup;
+			children = (
+				93FAAAA21D3C2B0F00B7E9DB /* Poke_mon_Go_Server_StatusTests.swift */,
+				93FAAAA41D3C2B0F00B7E9DB /* Info.plist */,
+			);
+			path = "Pokémon Go Server StatusTests";
+			sourceTree = "<group>";
+		};
+		93FAAAAC1D3C2B0F00B7E9DB /* Pokémon Go Server StatusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93FAAAAD1D3C2B0F00B7E9DB /* Poke_mon_Go_Server_StatusUITests.swift */,
+				93FAAAAF1D3C2B0F00B7E9DB /* Info.plist */,
+			);
+			path = "Pokémon Go Server StatusUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93FAAA891D3C2B0F00B7E9DB /* Pokémon Go Server Status */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93FAAAB21D3C2B0F00B7E9DB /* Build configuration list for PBXNativeTarget "Pokémon Go Server Status" */;
+			buildPhases = (
+				93FAAA861D3C2B0F00B7E9DB /* Sources */,
+				93FAAA871D3C2B0F00B7E9DB /* Frameworks */,
+				93FAAA881D3C2B0F00B7E9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pokémon Go Server Status";
+			productName = "Pokémon Go Server Status";
+			productReference = 93FAAA8A1D3C2B0F00B7E9DB /* Pokémon Go Server Status.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93FAAA9D1D3C2B0F00B7E9DB /* Pokémon Go Server StatusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93FAAAB51D3C2B0F00B7E9DB /* Build configuration list for PBXNativeTarget "Pokémon Go Server StatusTests" */;
+			buildPhases = (
+				93FAAA9A1D3C2B0F00B7E9DB /* Sources */,
+				93FAAA9B1D3C2B0F00B7E9DB /* Frameworks */,
+				93FAAA9C1D3C2B0F00B7E9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93FAAAA01D3C2B0F00B7E9DB /* PBXTargetDependency */,
+			);
+			name = "Pokémon Go Server StatusTests";
+			productName = "Pokémon Go Server StatusTests";
+			productReference = 93FAAA9E1D3C2B0F00B7E9DB /* Pokémon Go Server StatusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93FAAAA81D3C2B0F00B7E9DB /* Pokémon Go Server StatusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93FAAAB81D3C2B0F00B7E9DB /* Build configuration list for PBXNativeTarget "Pokémon Go Server StatusUITests" */;
+			buildPhases = (
+				93FAAAA51D3C2B0F00B7E9DB /* Sources */,
+				93FAAAA61D3C2B0F00B7E9DB /* Frameworks */,
+				93FAAAA71D3C2B0F00B7E9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93FAAAAB1D3C2B0F00B7E9DB /* PBXTargetDependency */,
+			);
+			name = "Pokémon Go Server StatusUITests";
+			productName = "Pokémon Go Server StatusUITests";
+			productReference = 93FAAAA91D3C2B0F00B7E9DB /* Pokémon Go Server StatusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93FAAA821D3C2B0F00B7E9DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "A.R.C software and enginering";
+				TargetAttributes = {
+					93FAAA891D3C2B0F00B7E9DB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					93FAAA9D1D3C2B0F00B7E9DB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 93FAAA891D3C2B0F00B7E9DB;
+					};
+					93FAAAA81D3C2B0F00B7E9DB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 93FAAA891D3C2B0F00B7E9DB;
+					};
+				};
+			};
+			buildConfigurationList = 93FAAA851D3C2B0F00B7E9DB /* Build configuration list for PBXProject "Pokémon Go Server Status" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93FAAA811D3C2B0F00B7E9DB;
+			productRefGroup = 93FAAA8B1D3C2B0F00B7E9DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93FAAA891D3C2B0F00B7E9DB /* Pokémon Go Server Status */,
+				93FAAA9D1D3C2B0F00B7E9DB /* Pokémon Go Server StatusTests */,
+				93FAAAA81D3C2B0F00B7E9DB /* Pokémon Go Server StatusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93FAAA881D3C2B0F00B7E9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FAAA981D3C2B0F00B7E9DB /* LaunchScreen.storyboard in Resources */,
+				93FAAA951D3C2B0F00B7E9DB /* Assets.xcassets in Resources */,
+				93FAAA931D3C2B0F00B7E9DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93FAAA9C1D3C2B0F00B7E9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93FAAAA71D3C2B0F00B7E9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93FAAA861D3C2B0F00B7E9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FAAA901D3C2B0F00B7E9DB /* ViewController.swift in Sources */,
+				93FAAA8E1D3C2B0F00B7E9DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93FAAA9A1D3C2B0F00B7E9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FAAAA31D3C2B0F00B7E9DB /* Poke_mon_Go_Server_StatusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93FAAAA51D3C2B0F00B7E9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FAAAAE1D3C2B0F00B7E9DB /* Poke_mon_Go_Server_StatusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93FAAAA01D3C2B0F00B7E9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93FAAA891D3C2B0F00B7E9DB /* Pokémon Go Server Status */;
+			targetProxy = 93FAAA9F1D3C2B0F00B7E9DB /* PBXContainerItemProxy */;
+		};
+		93FAAAAB1D3C2B0F00B7E9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93FAAA891D3C2B0F00B7E9DB /* Pokémon Go Server Status */;
+			targetProxy = 93FAAAAA1D3C2B0F00B7E9DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93FAAA911D3C2B0F00B7E9DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93FAAA921D3C2B0F00B7E9DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93FAAA961D3C2B0F00B7E9DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93FAAA971D3C2B0F00B7E9DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93FAAAB01D3C2B0F00B7E9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93FAAAB11D3C2B0F00B7E9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93FAAAB31D3C2B0F00B7E9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pokémon Go Server Status/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arc.pokegoserver.Poke-mon-Go-Server-Status";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93FAAAB41D3C2B0F00B7E9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pokémon Go Server Status/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arc.pokegoserver.Poke-mon-Go-Server-Status";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93FAAAB61D3C2B0F00B7E9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pokémon Go Server StatusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arc.pokegoserver.Poke-mon-Go-Server-StatusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokémon Go Server Status.app/Pokémon Go Server Status";
+			};
+			name = Debug;
+		};
+		93FAAAB71D3C2B0F00B7E9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pokémon Go Server StatusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arc.pokegoserver.Poke-mon-Go-Server-StatusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokémon Go Server Status.app/Pokémon Go Server Status";
+			};
+			name = Release;
+		};
+		93FAAAB91D3C2B0F00B7E9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pokémon Go Server StatusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arc.pokegoserver.Poke-mon-Go-Server-StatusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pokémon Go Server Status";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		93FAAABA1D3C2B0F00B7E9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pokémon Go Server StatusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arc.pokegoserver.Poke-mon-Go-Server-StatusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pokémon Go Server Status";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93FAAA851D3C2B0F00B7E9DB /* Build configuration list for PBXProject "Pokémon Go Server Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93FAAAB01D3C2B0F00B7E9DB /* Debug */,
+				93FAAAB11D3C2B0F00B7E9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93FAAAB21D3C2B0F00B7E9DB /* Build configuration list for PBXNativeTarget "Pokémon Go Server Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93FAAAB31D3C2B0F00B7E9DB /* Debug */,
+				93FAAAB41D3C2B0F00B7E9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93FAAAB51D3C2B0F00B7E9DB /* Build configuration list for PBXNativeTarget "Pokémon Go Server StatusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93FAAAB61D3C2B0F00B7E9DB /* Debug */,
+				93FAAAB71D3C2B0F00B7E9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93FAAAB81D3C2B0F00B7E9DB /* Build configuration list for PBXNativeTarget "Pokémon Go Server StatusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93FAAAB91D3C2B0F00B7E9DB /* Debug */,
+				93FAAABA1D3C2B0F00B7E9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93FAAA821D3C2B0F00B7E9DB /* Project object */;
+}
